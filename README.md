@@ -1,1 +1,15 @@
 # CS-255
+* Briefly summarize the DriverPass project. Who was the client? What type of system did they want you to design?
+     The DriverPass project was focused on designing the blueprints for the DriverPass system, including many UML diagrams, a schedule for system development goals, reccomendations, and many other crucial aspects of bringing the DriverPass system to life. DriverPass is an application proposed by an individual named Liam, who "noticed that there is a need for better driver training". DriverPass is expected to be a system in which users can train with online courses as well as in person driving courses. The product owner, Liam, wants DriverPass to have an online account system, a payment gateway, support, and progress tracking.
+     
+* What did you do particularly well?
+     I believe I found flaws in the supposed plans for DriverPass very well. There were many security issues revolving around user data and other data transfer. I suggested an implementation for account lockouts after too many login attempts, to prevent brute force attacks. I also suggested implementing features to secure API connections, specifically DriverPass' connection to the DMV updates system. 
+     
+* If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+     If I could choose one part of my work to revise on these documents it would be the UML class diagram. I would go into much more depth, adding functions and further breaking down each class for the best clarification. I would ensure each class is very obvious in its expected duty as well as its connections to other classes.
+  
+* How did you interpret the user’s needs and implement them into your system design? Why is it so important to consider the user’s needs when designing?
+     I interpreted the user's needs solely from reviewing the interview transcript, as Liam knows exactly what he wants his system to do and how he wants it to interact with his users. There is some inferencing from his suggested features, mainly regarding the user's needs for security. It is crucial to consider the user's needs when designing because without users, you have no application. The users are the sole purpose for the application's existence, so meeting their needs (securely) must be the number one priority.
+  
+* How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
+     When designing software, I approach it starting from a long distance view seeing breaking the project down very simply at first. I find the best way for my mind to tackle a large project is to increment the breaking apart of the application, essentially breaking down one layer and then breaking each of the created layers into further layers. The techniques from this course I will use in the future are the many diagrams we have learned to create, especially if I am in a team setting. These diagrams help the entire team visually see the expected form of the system, ensuring all members are on the same page.
